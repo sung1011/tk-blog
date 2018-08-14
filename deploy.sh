@@ -2,6 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+rm -r public && git clone git@github.com:sung1011/sung1011.github.io.git public
+
 # Build the project.
 hugo -t beg # if using a theme, replace with `hugo -t <YOURTHEME>`
 
