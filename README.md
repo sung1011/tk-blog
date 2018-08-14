@@ -15,6 +15,12 @@ hugo server -t {theme}
 open localhost:1313
 ```
 
+## theme
+```
+cd themes
+git clone {themes in https://github.com/gohugoio/hugoThemes}
+```
+
 ## deploy
 ```
 sh deploy.sh
